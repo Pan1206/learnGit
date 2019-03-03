@@ -1,0 +1,161 @@
+/* CSS Document */
+
+    #container{
+   width:1002px;
+   margin: 0 auto;
+   }
+   #header{
+   background:gray url(./images/top_bg.jpg);
+   height:128px;
+   }
+   #nav li{
+   float:left;
+   background:#eee;
+   width:90px;
+   margin-left:1px;
+   
+   }
+   #nav a{
+   font-size:15px;
+   font-family:"新宋体"; 
+   color:gray;
+   display:block;
+   width:90px;
+   height:37px;
+   text-align:center;
+   line-height:37px;
+   }
+    #nav a:hover{
+	color:white;
+	background:url(images/nav_on.gif);
+	
+	}
+	.clr{
+	clear:both;
+	width:0px;
+	height:0px;
+	}
+	#banner{
+	margin:5px 0;
+	}
+	#main{
+	
+	}
+	.subtitle{
+	height:37px;
+	background:gray url(images/index_main_top_bg.gif);
+	}
+	.subtitle img{
+	float:left;
+	margin:5px 0 0 10px;
+	
+	}
+	.subtitle h1{
+	float:left;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:5px 5px;
+	}
+	.subtitle a{
+	float:right;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-right:16px;
+	line-height:25px;
+	}
+	.four{
+	width:330px;
+	height:260px;
+	background:#EEE;
+	float:left;
+	margin:10px 5px;
+	_display:inline;
+	}
+	.four img{
+	float:left;
+	padding:5px;
+	margin-left:5px;
+	background:white;
+	}
+	.four ul{
+	float:left;
+	margin-left:5px;
+	}
+	.four h2{
+	font-size: 10px;
+	font-family:"新宋体";
+	margin:5px 0 0 5px;
+	}
+	.four li{
+	background: url(images/service_intro_bg.gif) no-repeat;
+	padding-left:10px;
+	height:20px;
+
+	}
+	.four a {
+	color:gray;
+	}
+	.four a:visited{
+	gray;
+	}
+	#lside{
+	height:600px;
+	width:694px;
+	border:1px solid gray;
+	float:left;
+	
+	}
+	#rside{
+	height:600px;
+	width:294px;
+	
+	float:right;
+	}
+	#art{
+	background:#eee;
+	margin-top:5px;
+	padding-top:5px;
+	}
+	#art li{
+	
+	padding:0 0 0 20px;
+	height:30px;
+	}
+	#art a{
+	display:block;
+	background:url(images/article_head.gif) no-repeat;
+	height:29px;
+	padding-left:20px;
+	line-height:29px;
+	
+	}
+	#art a:hover{
+	background: url(images/article_on_bg.gif);
+	}
+	#content{
+	height:355px;
+	margin-top:5px;
+	background:#eee;
+	}
+	#footer
+	{
+	height:120px;
+	background:gray;
+	margin-top:15px;
+	}
+	#footer ul{
+	height:40px;
+	background:#eee;
+	
+	}
+	#footer li{
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	}
+	#footer address
+	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	margin-top:15px;
+	}
